@@ -1,0 +1,129 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Modelos e outputs
+outputs/
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.pkl
+*.joblib
+*.ckpt
+*.index
+*.data-*
+
+# Logs
+*.log
+logs/
+tensorboard_logs/
+wandb/
+
+# Dados
+data/raw/
+data/processed/
+data/temp/
+*.csv
+*.json
+*.parquet
+*.feather
+
+# Imagens e datasets
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Kaggle
+.kaggle/
+kaggle.json
+
+# Arquivos de configuração local
+.env
+.env.local
+config.local.py
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Resultados e relatórios gerados
+outputs/figures/
+outputs/logs/
+*.png
+*.pdf
+*.svg
+!README.md
+!LICENSE
+
+# Arquivos específicos do projeto (manter estrutura mas não conteúdo)
+data/raw/train/urban/*
+data/raw/train/nature/*
+data/raw/test/urban/*
+data/raw/test/nature/*
+!data/raw/train/urban/.gitkeep
+!data/raw/train/nature/.gitkeep
+!data/raw/test/urban/.gitkeep
+!data/raw/test/nature/.gitkeep
