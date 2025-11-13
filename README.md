@@ -508,12 +508,4 @@ python src/train.py --batch_size 16
 
 ## 📄 Licença
 
-Veja o arquivo `LICENSE` para detalhes sobre a licença deste projeto.
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Por favor, abra uma issue ou pull request.
-
-## 📧 Contato
-
-Para dúvidas ou sugestões, abra uma issue no repositório.
+MIT
